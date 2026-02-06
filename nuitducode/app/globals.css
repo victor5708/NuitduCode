@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Couleurs identitaires Crédit Agricole */
+  --color-ca-green-dark: #00665c;    /* Le vert sombre du header/footer */
+  --color-ca-green-primary: #008f7a; /* Le vert des boutons/liens */
+  --color-ca-bg-gray: #f4f7f8;      /* Le gris très léger du fond */
+  
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1c1c1c;
+}
+
+body {
+  background-color: var(--color-ca-bg-gray);
+  color: var(--foreground);
+}
